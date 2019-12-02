@@ -1,0 +1,12 @@
+,0,1,2,3,4,5,6,7,8,9,10,11,12
+0,imdb.title.basics.csv.gz,tconst,primary_title,original_title,start_year,runtime_minutes,genres,,,,,,
+1,imdb.title.ratings.csv.gz,tconst,averagerating,numvotes,,,,,,,,,
+2,tn.movie_budgets.csv.gz,id,release_date,movie,production_budget,domestic_gross,worldwide_gross,,,,,,
+3,imdb.title.principals.csv.gz,tconst,ordering,nconst,category,job,characters,,,,,,
+4,rt.reviews.tsv.gz,id,review,rating,fresh,critic,top_critic,publisher,date,,,,
+5,imdb.name.basics.csv.gz,nconst,primary_name,birth_year,death_year,primary_profession,known_for_titles,,,,,,
+6,bom.movie_gross.csv.gz,title,studio,domestic_gross,foreign_gross,year,,,,,,,
+7,tmdb.movies.csv.gz,Unnamed: 0,genre_ids,id,original_language,original_title,popularity,release_date,title,vote_average,vote_count,,
+8,imdb.title.crew.csv.gz,tconst,directors,writers,,,,,,,,,
+9,imdb.title.akas.csv.gz,title_id,ordering,title,region,language,types,attributes,is_original_title,,,,
+10,rt.movie_info.tsv.gz,id,synopsis,rating,genre,director,writer,theater_date,dvd_date,currency,box_office,runtime,studio

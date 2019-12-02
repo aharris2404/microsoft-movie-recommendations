@@ -1,0 +1,67 @@
+**imdb.name.basics.csv.gz**
+- Crew
+- "nconst"
+- "primary_name"
+- "birth_year"
+- "death_year"
+- "primary_profession"
+- "known_for_titles"
+
+"nm0061671","Mary Ellen Bauder", ,,"miscellaneous,production_manager,producer","tt0837562,tt2398241,tt0844471,tt0118553"
+
+
+bom.movie_gross.csv.gz
+title,studio,domestic_gross,foreign_gross,year
+
+Toy Story 3,BV,415000000.0,652000000,2010
+
+imdb.title.akas.csv.gz
+"title_id","ordering","title","region","language","types","attributes","is_original_title"
+
+"tt0369610","10","Джурасик свят","BG","bg",,,"0"
+
+imdb.title.basics.csv.gz
+"tconst","primary_title","original_title","start_year","runtime_minutes","genres"
+
+"tt0063540","Sunghursh","Sunghursh","2013","175","Action,Crime,Drama"
+
+imdb.title.crew.csv.gz
+"tconst","directors","writers"
+
+"tt0285252","nm0899854","nm0899854"
+
+imdb.title.principals.csv.gz
+"tconst","ordering","nconst","category","job","characters"
+
+"tt0111414","1","nm0246005","actor",,"[""The Man""]"
+"tt0111414","2","nm0398271","director"
+
+imdb.title.ratings.csv.gz
+"tconst","averagerating","numvotes"
+
+"tt10356526","8.3000","31"
+"tt10384606","8.9000","559"
+
+rt.movie_info.tsv.gz
+id	synopsis	rating	genre	director	writer	theater_date	dvd_date	currency	box_office	runtime	studio
+
+1	"This gritty, fast-paced, and innovative police drama earned five Academy Awards, including Best Picture, Best Adapted Screenplay (written by Ernest Tidyman), and Best Actor (Gene Hackman). Jimmy ""Popeye"" Doyle (Hackman) and his partner, Buddy Russo (Roy Scheider), are New York City police detectives on narcotics detail, trying to track down the source of heroin from Europe into the United States. Suave Alain Charnier (Fernando Rey) is the French drug kingpin who provides a large percentage of New York City's dope, and Pierre Nicoli (Marcel Bozzuffi) is a hired killer and Charnier's right-hand man. Acting on a hunch, Popeye and Buddy start tailing Sal Boca (Tony Lo Bianco) and his wife, Angie (Arlene Faber), who live pretty high for a couple whose corner store brings in about 7,000 dollars a year. It turns out Popeye's suspicions are right -- Sal and Angie are the New York agents for Charnier, who will be smuggling 32 million dollars' worth of heroin into the city in a car shipped over from France. The French Connection broke plenty of new ground for screen thrillers; Popeye Doyle was a highly unusual ""hero,"" an often violent, racist, and mean-spirited cop whose dedication to his job fell just short of dangerous obsession. The film's high point, a high-speed car chase with Popeye tailing an elevated train, was one of the most viscerally exciting screen moments of its day and set the stage for dozens of action sequences to follow. And the film's grimy realism (and downbeat ending) was a big change from the buff-and-shine gloss and good-guys-always-win heroics of most police dramas that preceded it. The French Connection was inspired by a true story, and Eddie Egan and Sonny Grosso, Popeye and Buddy's real life counterparts, both have small roles in the film. A sequel followed four years later."	R	Action and Adventure|Classics|Drama	William Friedkin	Ernest Tidyman	Oct 9, 1971	Sep 25, 2001			104 minutes
+
+
+rt.reviews.tsv.gz
+id	review	rating	fresh	critic	top_critic	publisher	date
+
+3	A distinctly gallows take on contemporary financial mores, as one absurdly rich man's limo ride across town for a haircut functions as a state-of-the-nation discourse. 	3/5	fresh	PJ Nabarro	0	Patrick Nabarro	November 10, 2018
+
+tmdb.movies.csv.gz
+,genre_ids,id,original_language,original_title,popularity,release_date,title,vote_average,vote_count
+
+0,"[12, 14, 10751]",12444,en,Harry Potter and the Deathly Hallows: Part 1,33.533,2010-11-19,Harry Potter and the Deathly Hallows: Part 1,7.7,10788
+1,"[14, 12, 16, 10751]",10191,en,How to Train Your Dragon,28.734,2010-03-26,How to Train Your Dragon,7.7,7610
+
+
+tn.movie_budgets.csv.gz
+id,release_date,movie,production_budget,domestic_gross,worldwide_gross
+
+1,"Dec 18, 2009",Avatar,"$425,000,000","$760,507,625","$2,776,345,279"
+2,"May 20, 2011",Pirates of the Caribbean: On Stranger Tides,"$410,600,000","$241,063,875","$1,045,663,875"
