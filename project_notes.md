@@ -3,6 +3,7 @@
 ## Defining Success
 
 Q: How are we defining success?
+A: Maximum total revenue with a minimum of 20% ROI
 
 ### Methodology
 * ROI good, but more about maximizing total profit than about maximizing rate (Microsoft cares more about making 100 mil on a 200 mil investment than making 5 on a 1 investment)
